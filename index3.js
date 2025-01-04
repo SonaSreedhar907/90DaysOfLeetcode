@@ -25,3 +25,5 @@ function lastword(s){
 }
 var s = "   fly me   to   the moon  "
 console.log(lastword(s))
+
+
