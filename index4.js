@@ -1,3 +1,5 @@
+// sum of two numbers
+
 // Example 1:
 
 // Input: num1 = 12, num2 = 5

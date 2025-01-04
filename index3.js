@@ -1,4 +1,5 @@
 // length of the last word
+
 // Example 1:
 
 // Input: s = "Hello World"
@@ -16,13 +17,11 @@
 // Explanation: The last word is "joyboy" with length 6
 
 function lastword(s){
- var b=[]
- for(let i=0;i<s.length;i++){
-    if(!b.includes(s[i])){
-        b.push(s[i])
-    }
- }
- return b
+  var st = s.trim()
+  var p = st.split(" ")
+  for(let i =p.length-1;i>=p.length-1;i--){
+    return p[i].length
+  }
 }
-var s = [1,1,2,3,3]
+var s = "   fly me   to   the moon  "
 console.log(lastword(s))
