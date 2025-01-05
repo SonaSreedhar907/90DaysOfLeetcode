@@ -23,7 +23,7 @@ function lastword(s){
     return p[i].length
   }
 }
-var s = "   fly me   to   the moon  "
+var s = "Hello World"
 console.log(lastword(s))
 
 
