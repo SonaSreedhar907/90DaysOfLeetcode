@@ -2,8 +2,7 @@ LeetCode Problem-Solving Repository 🚀
 This repository contains my solutions to various Leetcode problems as part of my daily problem-solving journey. 💻
 I aim to solve one problem per day to enhance my coding and algorithmic skills. 🌟
 
-<<<<<<< HEAD
-=======
+
 1.  Two Sum
 2.  Palindrome Number
 3.  Add Two Integers
@@ -26,5 +25,4 @@ I aim to solve one problem per day to enhance my coding and algorithmic skills. 
 20. Fizz Buzz
 21. Detect Capital
 22. Shuffle the Array
->>>>>>> d96d90db43d3cd57b62d37a2e2f878212bde7a4d
 
