@@ -25,4 +25,5 @@ I aim to solve one problem per day to enhance my coding and algorithmic skills. 
 20. Fizz Buzz
 21. Detect Capital
 22. Shuffle the Array
+23. Capitalize the Title
 
