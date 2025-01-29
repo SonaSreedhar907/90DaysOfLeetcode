@@ -31,4 +31,6 @@ I aim to solve one problem per day to enhance my coding and algorithmic skills. 
 26. Concatination of Array
 27. Is Object Empty
 28. Number of Good pairs
+29. Return Length of Arguments Passed
+30. Smallest Even Multiple
 
