@@ -21,5 +21,5 @@
 function arguments(...args){
   return args.length
 }
-var args = [{}, null, "3"]
-console.log(arguments(args))
+var args = [3,4]
+console.log(arguments(...args))
