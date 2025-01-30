@@ -33,4 +33,5 @@ I aim to solve one problem per day to enhance my coding and algorithmic skills. 
 28. Number of Good pairs
 29. Return Length of Arguments Passed
 30. Smallest Even Multiple
+31. Check If a Word Occurs As a Prefix of Any Word in a Sentence
 
