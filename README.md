@@ -35,4 +35,5 @@ I aim to solve one problem per day to enhance my coding and algorithmic skills. 
 30. Smallest Even Multiple
 31. Check If a Word Occurs As a Prefix of Any Word in a Sentence
 32. Number of Steps to reduce a number to zero
+33. Final Value of Variable after Performing operations
 
