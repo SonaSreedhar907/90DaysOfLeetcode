@@ -1,7 +1,5 @@
 // 2011. Final Value of Variable After Performing Operations
 
-
-
 // Example 1:
 
 // Input: operations = ["--X","X++","X++"]
