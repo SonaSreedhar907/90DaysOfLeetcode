@@ -1,23 +1,21 @@
-// 283. Move Zeroes
+// 2154. Keep Multiplying Found Values by Two
 
 // Example 1:
 
-// Input: nums = [0,1,0,3,12]
-// Output: [1,3,12,0,0]
-// Example 2:
+// Input: nums = [5,3,6,1,12], original = 3
+// Output: 24
+// Explanation: 
+// - 3 is found in nums. 3 is multiplied by 2 to obtain 6.
+// - 6 is found in nums. 6 is multiplied by 2 to obtain 12.
+// - 12 is found in nums. 12 is multiplied by 2 to obtain 24.
+// - 24 is not found in nums. Thus, 24 is returned.
 
-// Input: nums = [0]
-// Output: [0]
-
-
-function moveZeroes(nums){
-    var b=[]
-    for(let i=0;i<nums.length;i++){
-        if(nums[i] !== 0){
-          b.push(nums[i])
-        }
-    }
-    
+function findFinalValue(nums,original){
+  while(nums.includes(original)){
+   original = original * 2
+  }
+  return original
 }
-var nums = [0,1,0,3,12]
-console.log(moveZeroes(nums))
+var nums = [2,7,9]
+var original = 4
+console.log(findFinalValue(nums,original))
