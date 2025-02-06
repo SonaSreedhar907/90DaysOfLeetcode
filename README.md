@@ -37,4 +37,6 @@ I aim to solve one problem per day to enhance my coding and algorithmic skills. 
 32. Number of Steps to reduce a number to zero
 33. Final Value of Variable after Performing operations
 34. XOR Operation in an Array
+35. Keep Multiplying found values by 2
+36. Running sum of 1d Array
 
