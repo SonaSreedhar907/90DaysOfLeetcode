@@ -39,4 +39,5 @@ I aim to solve one problem per day to enhance my coding and algorithmic skills. 
 34. XOR Operation in an Array
 35. Keep Multiplying found values by 2
 36. Running sum of 1d Array
+37. Sum of Unique Elements
 
