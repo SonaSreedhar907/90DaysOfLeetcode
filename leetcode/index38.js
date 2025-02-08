@@ -41,6 +41,7 @@ function plusOne(digits) {
       } else {
           digits[i] = 0;
       }
+      
   }
 
   // If all digits are 9, add a new digit 1 at the beginning
