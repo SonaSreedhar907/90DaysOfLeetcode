@@ -45,4 +45,6 @@ I aim to solve one problem per day to enhance my coding and algorithmic skills. 
 40. Find lucky integer in an array
 41. Check if the Sentence Is Pangram
 42. Defanging an IP Address
+43. Roman To Integer
+44. Shuffle String
 
