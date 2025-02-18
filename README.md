@@ -50,4 +50,7 @@ I aim to solve one problem per day to enhance my coding and algorithmic skills. 
 45. Reverse words in a String
 46. Third Maximum Number
 47. Left and Right Sum Differences
+48. Merge Strings Alternatively
+49. Recyclable and Low Fat Products
+50. Find Customer Referee
 
