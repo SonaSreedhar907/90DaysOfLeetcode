@@ -1,1 +1,1 @@
-// console.log("everything will become better one day")
+console.log("you definitely win in your life")
