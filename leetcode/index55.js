@@ -1,1 +1,0 @@
-console.log("you definitely win in your life")
