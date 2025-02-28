@@ -57,3 +57,4 @@ I aim to solve one problem per day to enhance my coding and algorithmic skills. 
 52. Article Views I
 53. Invalid Tweets
 54. Replace Employee ID With The Unique Identifier
+55. Single Number
