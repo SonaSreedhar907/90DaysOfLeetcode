@@ -33,3 +33,5 @@ var singleNumber = function(nums) {
     return result
 };
 console.log(singleNumber([2,2,1]))
+
+console.log("hai sayuuu.. my little cute brother")

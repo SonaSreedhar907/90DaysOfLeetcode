@@ -1,4 +1,4 @@
-// add two integers
+// palindrome
 
 // Example 1:
 
@@ -30,3 +30,7 @@ function palindrome(x){
 }
 var x = 121
 console.log(palindrome(x))
+
+
+
+

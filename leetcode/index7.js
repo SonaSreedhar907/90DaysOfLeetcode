@@ -2,8 +2,10 @@
 
 // Example 1:
 
+
 // Input: s = "Hello"
 // Output: "hello"
+
 // Example 2:
 
 // Input: s = "here"
@@ -14,12 +16,12 @@
 // Output: "lovely"
 
 
-function toLowerCase(s){
-   let b =""
-   for(let i=0;i<s.length;i++){
-        b+=s[i].toLowerCase()
-   }
-   return b
-}
-var s = "LOVELY"
-console.log(toLowerCase(s))
+// function toLowerCase(s){
+//    let b =""
+//    for(let i=0;i<s.length;i++){
+//         b+=s[i].toLowerCase()
+//    }
+//    return b
+// }
+// var s = "LOVELY"
+// console.log(toLowerCase(s))

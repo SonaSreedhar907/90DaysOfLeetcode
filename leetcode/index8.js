@@ -38,3 +38,10 @@ console.log(palindrome(s))
 // reverse() used to reverse the elements in the array
 //join('') combine the elements of the array back
            //into string   (array ->  string)
+
+
+
+function palindrome(){
+
+}
+console.log(palindrome())
