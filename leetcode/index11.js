@@ -12,21 +12,21 @@
 // Explanation: There is no single number that satisfies the requirement, so return 0.
 
 
-function averageValue(nums){
-    let b =[]
-   for(let i=0;i<nums.length;i++){
-    if(nums[i]>3 && nums[i]%2 == 0 && nums[i]%3 == 0){
-       b.push(nums[i])
-    }
-   }
-   if(b.length !== 0){
-    var s = b.map(n=>n).reduce((acc,val)=>acc+val,0) / b.length   //acc initialvalue = 0
-    return Math.floor(s) 
-   }
-   return 0
- }
- var nums = [43,9,75,76,25,96,46,85,19,29,88,2,5,24,60,26,76,24,96,82,97,97,72,35,21,77,82,30,94,55,76,94,51]
- console.log(averageValue(nums))
+// function averageValue(nums){
+//     let b =[]
+//    for(let i=0;i<nums.length;i++){
+//     if(nums[i]>3 && nums[i]%2 == 0 && nums[i]%3 == 0){
+//        b.push(nums[i])
+//     }
+//    }
+//    if(b.length !== 0){
+//     var s = b.map(n=>n).reduce((acc,val)=>acc+val,0) / b.length   //acc initialvalue = 0
+//     return Math.floor(s) 
+//    }
+//    return 0
+//  }
+//  var nums = [43,9,75,76,25,96,46,85,19,29,88,2,5,24,60,26,76,24,96,82,97,97,72,35,21,77,82,30,94,55,76,94,51]
+//  console.log(averageValue(nums))
 
 
  //Math.floor() is used to convert the floating point number to 

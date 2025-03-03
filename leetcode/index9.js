@@ -32,4 +32,5 @@ console.log(subtractProductAndSum(4421))
 
 
 
+
 //map(Number) - here convert the string into a number

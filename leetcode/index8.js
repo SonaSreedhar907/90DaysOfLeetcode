@@ -18,6 +18,7 @@
 // Since an empty string reads the same forward and backward, it is a palindrome.
 
 
+
 function palindrome (s){
  let b=s.replace(/[^A-Za-z0-9]/g,'').toLowerCase()
  let c = b.split('').reverse().join('')
@@ -41,7 +42,3 @@ console.log(palindrome(s))
 
 
 
-function palindrome(){
-
-}
-console.log(palindrome())
