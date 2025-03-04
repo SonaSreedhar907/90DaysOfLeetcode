@@ -1,38 +1,26 @@
-// 2733. Neither Minimum nor Maximum
+// 1796. Second Largest Digit in a String
 
-// Given an integer array nums containing distinct positive integers, find and return any number from the array that is neither the minimum nor the maximum value in the array, or -1 if there is no such number.
+// Given an alphanumeric string s, return the second largest numerical digit that appears in s, or -1 if it does not exist.
 
-// Return the selected integer.
-
- 
+// An alphanumeric string is a string consisting of lowercase English letters and digits.
 
 // Example 1:
 
-// Input: nums = [3,2,1,4]
+// Input: s = "dfa12321afd"
 // Output: 2
-// Explanation: In this example, the minimum value is 1 and the maximum value is 4. Therefore, either 2 or 3 can be valid answers.
+// Explanation: The digits that appear in s are [1, 2, 3]. The second largest digit is 2.
 // Example 2:
 
-// Input: nums = [1,2]
+// Input: s = "abc1111"
 // Output: -1
-// Explanation: Since there is no number in nums that is neither the maximum nor the minimum, we cannot select a number that satisfies the given condition. Therefore, there is no answer.
-// Example 3:
+// Explanation: The digits that appear in s are [1]. There is no second largest digit.
 
-// Input: nums = [2,1,3]
-// Output: 2
-// Explanation: Since 2 is neither the maximum nor the minimum value in nums, it is the only valid answer. 
 
-function findNonMinOrMax(nums){
-    if (nums.length <3 ) return -1
-    let min = Math.min(...nums)
-    let max = Math.max(...nums)
-    for(let num of nums){
-        if(num !== min && num !== max){
-            return num
-        }
-    }
-    return -1
 
+function secondHighest(s){
+  var b = s.replace(/[a-z]/gi,"").split('').map(Number)
+  var c = [...new Set(b)].sort((a,b)=>b-a)
+  return c.length >1 ? c[1] : -1
 }
-var nums = [2,4,25]
-console.log(findNonMinOrMax(nums))
+var s = "ck077"
+console.log(secondHighest(s))
