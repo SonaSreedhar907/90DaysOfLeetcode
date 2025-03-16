@@ -65,3 +65,4 @@ I aim to solve one problem per day to enhance my coding and algorithmic skills. 
 60. Maximum Product of Two Elements in an Array
 61. Rotate String
 62. Counter II
+63. Filter Elements from Array
