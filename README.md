@@ -60,7 +60,8 @@ I aim to solve one problem per day to enhance my coding and algorithmic skills. 
 55. Single Number
 56. Neither Minimum nor maximum
 57. Second largest digit in a String
-58. Three Consecutive Odds
-59. Maximum Product of Two Elements in an Array
-60. Rotate String
-61. Counter II
+58. Find the Kth Largest Integer in the Array
+59. Three Consecutive Odds
+60. Maximum Product of Two Elements in an Array
+61. Rotate String
+62. Counter II
