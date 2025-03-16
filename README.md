@@ -61,3 +61,4 @@ I aim to solve one problem per day to enhance my coding and algorithmic skills. 
 56. Neither Minimum nor maximum
 57. Second largest digit in a String
 58. Three Consecutive Odds
+59. Maximum Product of Two Elements in an Array
